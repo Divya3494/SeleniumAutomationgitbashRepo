@@ -1,0 +1,95 @@
+//div[1]/input[1]
+//div[1]/input[2]
+//div[1]/input[3]
+//div[1]/input[4]
+//div[1]/input[1]//div[1]/input[2]
+//div[1]/input[3]//div[1]/input[4]
+//div[1]/input[1]//div[1]/input[4]
+//div[1]/input[2]//div[1]/input[3]
+//div[1]/input[1]//div[1]/input[2]//div[1]/input[3]//div[1]/input[4]
+-------------------------
+Selenium asignments
+1)5 examples of xpath by attribute,text(),multiple attribute,realtive.
+1.xpath by attribute:
+//input[@name='email'] 
+//input[@name='pass']
+//input[@name='login']
+//input[@id='email']
+//input[@id='pass']
+--------------------------------
+2.xpath by text function:
+//a[text()='Forgotten password?']
+//a[text()='Create a Page']
+//li[text()='English (UK)']
+//a[text()='Log in'] 
+//a[text()='Help'] 
+----------------------------------
+3.xpath by multiple attribute:
+//input[@name='email' and @id='email']
+//input[@name='pass' and @id='pass']
+//input[@name='email' and @id='ap_email']
+//input[@id='ap_customer_name' and @name='customerName']  
+//input[@id='ap_phone_number' and @name='email']
+---------------------------------------
+//tag[contains(text()='TV')]
+//div[contains(text()='From ')]
+//div[contains(.,'From')]
+
+
+
+
+//input[@class='_8ice'] -----doubt --------- how to locate for facebook page
+//input[@class='fb_logo_8ilh img']-------doubt-- how to locate facebook image on login page of facebook
+--------------------------
+Html - hypertext markup language is language used by web devlopers or web designers to develop web pages .
+1: tags - anything enclosed within angular brackets is called tags 
+2: attribute- anything which has text value pair 
+3:text - anything between tags is called text
+
+
+109.0.5414.75 
+//input[@id="a1"] 
+//input[@name="abc"]
+//div[text()="Login"]
+//div[contains(.,'Login')]
+//div
+-----------------------------------------------------------
+23/1/23
+1)ele.sendKeys("General Practitioner");
+The method sendKeys(CharSequence[]) in the type WebElement is not applicable for the arguments (String)
+2)how to select a text from dropdown list automatically.
+--------------
+3)WARNING: Unable to find version of CDP to use for . You may need to include a
+ dependency on a specific version of the CDP using something similar to 
+ `org.seleniumhq.selenium:selenium-devtools-v86:4.4.0` where the version ("v86") matches the version of 
+ the chromium-based browser you're using and the version number of the artifact is the same as Selenium's. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
